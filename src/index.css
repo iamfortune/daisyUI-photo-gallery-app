@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Cousine:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Cousine", monospace;
+	width: 100%;
+	line-height: 1.5;
+}
+
+.card {
+	@apply h-80;
+	@apply rounded-none !important;
+}
+
+.alert {
+	@apply py-3;
+	@apply px-4;
+	@apply flex;
+	@apply flex-col;
+	@apply items-center;
+	@apply justify-center;
+}
